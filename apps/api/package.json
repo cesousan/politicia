@@ -42,7 +42,8 @@
       },
       "test": {
         "options": {
-          "passWithNoTests": true
+          "passWithNoTests": true,
+          "testPathIgnorePatterns": "\\.e2e\\.spec\\.ts$"
         }
       },
       "docker-build": {
